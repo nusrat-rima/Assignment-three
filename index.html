@@ -119,61 +119,230 @@
     </header>
 
     <!-- Main section -->
-    <main class="max-w-screen-xl mx-auto px-5 lg:px-20">
+    <main class="md:container mx-auto">
       <!-- Service Section -->
-      <section>
+      <section class="py-20 max-w-screen-xl mx-auto px-16 lg: px-28">
         <!-- Tittle -->
         <h4 class="font-bold text-4xl text-clr-primary py-12">Services</h4>
         <!-- Grid Cards -->
-        <div class="grid grid-cols-1 lg:grid-cols-3  gap-10">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
           <div
             class="rounded-lg shadow-md bg-[#EFEBE3] overflow-hidden items-center text-center p-10"
           >
             <!-- Avatar -->
             <div class="avatar py-5">
               <div class="w-24 rounded-full bg-white">
-                <img class="p-5"
-                  src="c2-assets/service.png"
-                />
+                <img class="p-5" src="c2-assets/service.png" />
               </div>
             </div>
             <h5 class="font-bold text-xl">24/7 Services</h5>
-            <br>
-            <p class="font-light text-xl">  This service is available 24 hours a day, 7 days a week, without any breaks. This means it operates all day and night, including weekends and holidays.</p>
+            <br />
+            <p class="font-light text-xl">
+              This service is available 24 hours a day, 7 days a week, without
+              any breaks. This means it operates all day and night, including
+              weekends and holidays.
+            </p>
           </div>
-              <div
+          <div
             class="rounded-lg shadow-md bg-[#EFEBE3] overflow-hidden items-center text-center p-10"
           >
             <!-- Avatar-2-->
             <div class="avatar py-5">
               <div class="w-24 rounded-full bg-white">
-                <img class="p-5"
-                  src="c2-assets/delivery.png"
-                />
+                <img class="p-5" src="c2-assets/delivery.png" />
               </div>
             </div>
             <h5 class="font-bold text-xl">Fast Delivery</h5>
-            <br>
-            <p class="font-light text-xl">   This means delivering goods or services quickly, usually within a short time frame like a few hours, the same day, or the next day..</p>
+            <br />
+            <p class="font-light text-xl">
+              This means delivering goods or services quickly, usually within a
+              short time frame like a few hours, the same day, or the next day..
+            </p>
           </div>
-              <div
+          <div
             class="rounded-lg shadow-md bg-[#EFEBE3] overflow-hidden items-center text-center p-10"
           >
             <!-- Avatar-3 -->
             <div class="avatar py-5">
               <div class="w-24 rounded-full bg-white">
-                <img class="p-5"
-                  src="c2-assets/healthy.png"
-                />
+                <img class="p-5" src="c2-assets/healthy.png" />
               </div>
             </div>
-            <br>
+            <br />
             <h5 class="font-bold text-xl">Healthy Products</h5>
-            <br>
-            <p class="font-light text-xl">We include organic foods, herbal drinks, nutritional supplements, and chemical-free personal care products. Examples are fruits, whole grains, green tea.</p>
+            <br />
+            <p class="font-light text-xl">
+              We include organic foods, herbal drinks, nutritional supplements,
+              and chemical-free personal care products. Examples are fruits,
+              whole grains, green tea.
+            </p>
           </div>
         </div>
       </section>
+      <!-- Popular section -->
+      <section class="bg-[#EFEBE3] lg:h-[650px] w-full relative py-20 px-20">
+        <!-- Tittle -->
+          <h4
+            class="font-bold text-4xl text-clr-primary left-20 py-5">Popular Products</h4>  
+      
+        <!-- parent-div -->
+        <div class="lg:flex gap-10">
+          <!-- left-div -->
+          <div>
+            <div
+              class="card shadow-xl bg-gradient-to-b from-green-500 to-green-200"
+            >
+              <div class="card-body space-y-5">
+                <h2 class="card-title text-white text-3xl">30% off</h2>
+                <p>
+                  Discover a world of treats, toys <br />
+                  and essentials inapplied.
+                </p>
+                <div class="card-actions">
+                  <button class="text-black btn bg-white">Buy Now</button>
+                  <img
+                    class="pb-0"
+                    src="c2-assets/vegetable-offer.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- right div -->
+          <div class="grid lg:grid-cols-3 grid-cols-2 gap-5 mt-10 lg:mt-0">
+            <!-- section div -->
+            <div class="bg-white rounded-lg pt-6">
+              <div class="flex p-2">
+                <div class="avatar-1">
+                  <div class="w-20 rounded bg-[#EFEBE3]">
+                    <img src="c2-assets/onion.png" />
+                  </div>
+                </div>
+                <div class="p-2">
+                  <h6><i class="fa-solid fa-star text-orange-400"></i> 4.5</h6>
+                  <p class="text-sm">Onion 1KG</p>
+                  <h6>$30.0</h6>
+                </div>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg pt-6">
+              <div class="flex p-2">
+                <div class="avatar-2">
+                  <div class="w-20 rounded bg-[#EFEBE3]">
+                    <img src="c2-assets/tomato.png" />
+                  </div>
+                </div>
+                <div class="p-2">
+                  <h6><i class="fa-solid fa-star text-orange-400"></i> 4.5</h6>
+                  <p class="text-sm">tomato 1KG</p>
+                  <h6>$12.3</h6>
+                </div>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg pt-6">
+              <div class="flex p-2">
+                <div class="avatar-3">
+                  <div class="w-20 rounded bg-[#EFEBE3]">
+                    <img src="c2-assets/potato.png" />
+                  </div>
+                </div>
+                <div class="p-2">
+                  <h6><i class="fa-solid fa-star text-orange-400"></i> 4.5</h6>
+                  <p class="text-sm">Potato 3KG</p>
+                  <h6>$40.0</h6>
+                </div>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg pt-6">
+              <div class="flex p-2">
+                <div class="avatar-3">
+                  <div class="w-20 rounded bg-[#EFEBE3]">
+                    <img src="c2-assets/onion.png" />
+                  </div>
+                </div>
+                <div class="p-2">
+                  <h6><i class="fa-solid fa-star text-orange-400"></i>4.5</h6>
+                  <p class="text-sm">Onion 2KG</p>
+                  <h6>$7.99</h6>
+                </div>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg pt-6">
+              <div class="flex p-2">
+                <div class="avatar-1">
+                  <div class="w-20 rounded bg-[#EFEBE3]">
+                    <img src="c2-assets/tomato.png" />
+                  </div>
+                </div>
+                <div class="p-2">
+                  <h6><i class="fa-solid fa-star text-orange-400"></i> 4.5</h6>
+                  <p class="text-sm">Tomato 4KG</p>
+                  <h6>$13.5</h6>
+                </div>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg pt-6">
+              <div class="flex p-2">
+                <div class="avatar-1">
+                  <div class="w-20 rounded bg-[#EFEBE3]">
+                    <img src="c2-assets/potato.png" />
+                  </div>
+                </div>
+                <div class="p-2">
+                  <h6><i class="fa-solid fa-star text-orange-400"></i> 3.5</h6>
+                  <p class="text-sm">Potato 1KG</p>
+                  <h6>$18.0</h6>
+                </div>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg pt-6">
+              <div class="flex p-2">
+                <div class="avatar-1">
+                  <div class="w-20 rounded bg-[#EFEBE3]">
+                    <img src="c2-assets/potato.png" />
+                  </div>
+                </div>
+                <div class="p-2">
+                  <h6><i class="fa-solid fa-star text-orange-400"></i> 3.5</h6>
+                  <p class="text-sm">Potato 4KG</p>
+                  <h6>$27.9</h6>
+                </div>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg pt-6">
+              <div class="flex p-2">
+                <div class="avatar-1">
+                  <div class="w-20 rounded bg-[#EFEBE3]">
+                    <img src="c2-assets/tomato.png" />
+                  </div>
+                </div>
+                <div class="p-2">
+                  <h6><i class="fa-solid fa-star text-orange-400"></i> 4.5</h6>
+                  <p class="text-sm">tomato 1KG</p>
+                  <h6>$10.1</h6>
+                </div>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg hidden lg:block pt-6">
+              <div class="flex p-2">
+                <div class="avatar-1">
+                  <div class="w-20 rounded bg-[#EFEBE3]">
+                    <img src="c2-assets/onion.png" />
+                  </div>
+                </div>
+                <div class="p-2">
+                  <h6><i class="fa-solid fa-star text-orange-400"></i> 4.5</h6>
+                  <p class="text-sm">Onion 1KG</p>
+                  <h6>$14.7</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
     </main>
     <!-- Footer section -->
     <footer></footer>
